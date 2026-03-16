@@ -30,7 +30,7 @@ jupyter notebook
 
 ## Output
 
-The final generated story (2500+ words) is saved to `generated_story.txt` in the project directory.
+The final generated story (2500+ words) is saved to `generated_story.md` in the project directory.
 
 ## Configuration
 
