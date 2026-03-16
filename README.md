@@ -22,7 +22,7 @@ You can get a free Gemini API key at [https://aistudio.google.com/app/apikey](ht
 
 ### 3. Run the notebook
 
-Open `CS7634_Project1_v3.ipynb` in Jupyter Lab or Jupyter Notebook and run all cells sequentially.
+Open `CS7634_Project1.ipynb` in Jupyter Lab or Jupyter Notebook and run all cells sequentially.
 
 ```bash
 jupyter notebook
