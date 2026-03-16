@@ -113,17 +113,6 @@ nexus, not seismic damage. Where were you between
 21:00 and 22:00?"
 
 
-Voss then turned to Jax Kryll, the Systems Engineer,
-whose pale, sweating face betrayed genuine terror.
-Kryll was the only person who understood the
-labyrinthine mechanics of the life support well
-enough to recognize the subtle chemical shift
-throttling their oxygen supply. "Mr. Kryll, the
-communication array. Thermal overload on the routing
-chip. That required manual access to the wiring
-nexus, not seismic damage. Where were you between
-21:00 and 22:00?"
-
 Kryll stammered, his eyes darting towards the
 viewport, as if hoping salvation lay in the crushing
 black outside. "Submersible Bay 3, checking hull
@@ -163,12 +152,6 @@ Thorne, your spectral analysis in the ARU. It yields
 only external pressure logs. No internal telemetry.
 That unit is a dead end for monitoring activity."
 
-
-Voss’s focus sharpened on Thorne’s alibi. "Dr.
-Thorne, your spectral analysis in the ARU. It yields
-only external pressure logs. No internal telemetry.
-That unit is a dead end for monitoring activity."
-
 Thorne remained calm. "It is precisely because it is
 isolated that it is the only place one can perform
 uninterrupted spectral work, Investigator. I
@@ -200,19 +183,6 @@ an entire hour of the already dwindling lifespan of
 the *Abyssos*. Voss silently cataloged the move: the
 murderer was actively steering the investigation by
 creating controlled panic, slowing forensic analysis.
-
-When they returned, the air was stale but clear. Voss
-immediately ordered the maintenance logs for Vance’s
-recycler examined again. The log now showed Dr.
-Thorne had authorized a maintenance purge in Bay C—
-where his auxiliary suit was stored—thirty minutes
-before the main pressure fluctuation alarm. "Doctor,"
-Voss said, holding up the new log entry, "You claimed
-you were isolated in the ARU. Yet, you authorized a
-system purge in Bay C, which would have removed any
-external residue from your suit. Why the
-contradiction?"
-
 
 When they returned, the air was stale but clear. Voss
 immediately ordered the maintenance logs for Vance’s
@@ -269,32 +239,6 @@ had to coincide precisely with a 1.5-second
 environmental purge cycle, something Vex, isolated
 miles away in the Hydroponics Bay, could never time.
 
-
-**Escalation Two:** The investigation ground forward
-with agonizing slowness. Voss turned his attention to
-Zylos Vex, focusing on the psychological clue
-suggesting the poison mimicked Vex’s experimental
-reagent. He demanded Vex detail his seismic mapping
-in the lower Hydroponics Bay. Vex, overwhelmed and
-displaying genuine terror, insisted his readings were
-uninterrupted. Voss checked the access log. The
-seismic data was continuous. However, Voss cross-
-referenced the time of Zylos’s exit with the location
-of Vance’s missing data-slate. The system flagged a
-security override on the Hydroponics Bay access panel
-using Dr. Ito's primary security key card code
-shortly after Zylos claimed he left. This suggested
-Ito was either securing the area or framing Zylos.
-Voss accused Zylos of using the reagent to frame
-Vance’s death as an accident related to her own work.
-Vex dissolved into panicked denials, his resentment
-toward Vance overshadowing his fear of Voss. Voss’s
-accusation felt logical—motive, means, opportunity—
-but the physical timeline was wrong. The injection
-had to coincide precisely with a 1.5-second
-environmental purge cycle, something Vex, isolated
-miles away in the Hydroponics Bay, could never time.
-
 As Voss pivoted away from the geologist, recognizing
 the flaw in the timing, Seraphina Roux saw her
 opening. Observing the friction between Voss and
@@ -305,32 +249,6 @@ corporate review given the failing life support. Voss
 momentarily granted it, desperate for any lead, but
 he had missed the crucial detail: Roux was hiding
 evidence of corporate pollution, not murder.
-
-**Escalation Three:** Voss finally managed to access
-the low-level diagnostic logs for the communication
-array nexus, confirming the thermal spike required a
-high-amperage shunt directly from the primary Life
-Support conduit—knowledge far exceeding the scope of
-a corporate liaison or a resentful geologist. This
-pointed back toward someone with deep engineering
-understanding, perhaps Kryll, or someone who knew how
-to manipulate the engineering core, like Thorne. Voss
-attempted to communicate with Kryll, seeking
-confirmation on the original maintenance schedule for
-Vance’s recycler, hoping to find proof Thorne had
-overridden it. But as Voss activated his personal
-data slate to query Kryll, the emergency beacon,
-still weakly transmitting, erupted in a painful,
-high-frequency shriek. Voss’s slate overloaded, the
-chip frying in a shower of localized static,
-rendering his recording capability useless. He was
-isolated, his primary investigative tool destroyed by
-the very communication failure he was trying to
-understand. The countdown mechanism was now
-undeniably critical; less than five hours remained
-before the oxygen scrubbers entered complete failure
-mode.
-
 
 **Escalation Three:** Voss finally managed to access
 the low-level diagnostic logs for the communication
@@ -398,14 +316,6 @@ Kryll, was a calculated move to silence the only
 potential truth-teller before the lockdown became
 permanent.
 
-
-Thorne had anticipated Kryll finding the evidence of
-sabotage, or worse, knowing the truth of the
-injection. The comms sabotage, which perfectly framed
-Kryll, was a calculated move to silence the only
-potential truth-teller before the lockdown became
-permanent.
-
 The realization solidified when Voss reviewed the
 ozone signature near the Geo-Lab again. It matched
 Thorne’s condenser, but the smell was stronger now,
@@ -434,20 +344,6 @@ sheared off, suggesting Kryll had been attempting a
 frantic, last-ditch manual override, perhaps trying
 to equalize the pressure after his suit failed
 catastrophically.
-
-Seraphina Roux immediately recoiled, demanding Ito
-secure the WRPU logs to clear corporate liability for
-the filtration pump failure. Zylos Vex, pale and
-withdrawn, refused to look, busying himself with
-wiping down minor water contamination near the Geo-
-Lab door seal—a futile attempt to clean up evidence
-he didn't create. Dr. Ito, struggling to maintain
-command integrity as the oxygen alarms began their
-low, persistent warning chime, could only confirm
-that Kryll’s suit telemetry had simply flatlined,
-presenting all the hallmarks of a panicked engineer
-electrocuting himself while attempting a manual fix.
-
 
 Seraphina Roux immediately recoiled, demanding Ito
 secure the WRPU logs to clear corporate liability for
@@ -576,25 +472,6 @@ in Bay C—a purge that only removed macroscopic
 residue, leaving the microscopic dust you
 overlooked."
 
-
-"You provided *fabricated* log data based on
-procedural theater," Voss countered, pointing toward
-the environmental suit storage bay where Thorne’s
-auxiliary unit rested. "The TTX-D neurotoxin was
-administered to Dr. Vance by aerosolizing it directly
-into her atmospheric recycler intake valve at 21:18.
-This required the suit to be briefly unsealed during
-a diagnostic cycle. A cycle you triggered, Dr.
-Thorne, while claiming to be miles away." Voss felt
-the cold surge of adrenaline as he connected the
-final dots. "The microscopic flecks of dispersal
-lubricant on your auxiliary suit in Bay C confirm
-your physical proximity to the delivery mechanism.
-You corrected for this by authorizing a system purge
-in Bay C—a purge that only removed macroscopic
-residue, leaving the microscopic dust you
-overlooked."
-
 He continued, his eyes locked on Thorne. "But you are
 not merely a xenobiologist; you possess intimate
 knowledge of habitat engineering. You performed the
@@ -623,14 +500,6 @@ environmental suit. The ozone scent near the Geo-Lab
 was the first use of the surge; the smell near the
 WRPU was the second, far stronger, confirming the
 method of execution."
-
-Thorne’s composure finally fractured. His eyes
-flickered towards the oxygen gauge display, which was
-blinking a desperate amber, indicating less than four
-hours of breathable air remained. "You are relying on
-conjecture, Investigator. My alibi remains
-structurally sound."
-
 
 Thorne’s composure finally fractured. His eyes
 flickered towards the oxygen gauge display, which was
@@ -674,5 +543,3 @@ countdown and forcing the compromised oxygen
 scrubbers back toward full efficiency, buying them
 the time they desperately needed to survive the dark
 depths of the *Abyssos*.
-
-
