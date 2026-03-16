@@ -38,7 +38,7 @@ Model and pipeline parameters are set in **Cell 21** of the notebook:
 
 | Parameter | Default | Description |
 |---|---|---|
-| `model` | `gemini-flash-lite-latest` | Gemini model to use (`gemini-flash-latest` for richer stories) |
+| `model` | `gemini-flash-latest` | Gemini model to use (`gemini-flash-lite-latest` for faster generation) |
 | `MIN_ITERATIONS` | `3` | Minimum detective loop iterations |
 | `MIN_WRONG_ACCUS` | `4` | Minimum wrong accusations before resolution |
 | `MIN_PLOT_POINTS` | `15` | Minimum total plot points accumulated |
