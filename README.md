@@ -60,3 +60,5 @@ Setting → Crime (hidden) → Suspects → Clues
                                         ↓
                               Final Story (prose narrative)
 ```
+
+Some of the sample stories generated for each type of genre that we are handling (classic puzzle, noir and psychological) are present in the `sample_good_stories` folder
