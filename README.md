@@ -1,7 +1,9 @@
 # CS7634 Project 1 — AI-Powered Murder Mystery Generator
 
-Team Name: Rabid Fish
+Team Name: Rabid Fish 
+
 Project Template: Suspense Generation
+
 System Name: The Whodunit Engine
 
 An AI-powered whodunit story generator built with Google's Gemini API. Uses multi-stage prompt engineering to procedurally generate coherent murder mystery narratives with suspects, clues, red herrings, and an iterative detective investigation loop.
