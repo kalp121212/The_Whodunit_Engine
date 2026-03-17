@@ -1,5 +1,9 @@
 # CS7634 Project 1 — AI-Powered Murder Mystery Generator
 
+Team Name: Rabid Fish
+Project Template: Suspense Generation
+System Name: The Whodunit Engine
+
 An AI-powered whodunit story generator built with Google's Gemini API. Uses multi-stage prompt engineering to procedurally generate coherent murder mystery narratives with suspects, clues, red herrings, and an iterative detective investigation loop.
 
 ## Setup
@@ -58,3 +62,9 @@ Setting → Crime (hidden) → Suspects → Clues
 ```
 
 Some of the sample stories generated for each type of genre that we are handling (classic puzzle, noir and psychological) are present in the `sample_good_stories` folder
+
+## Time and Cost Analysis
+
+The notebook takes typically 2-3 minutes to run fully and generate the final story. This can sometimes take longer while facing rate limiting issues with Gemini.
+
+Optionally, one can enable ondemand pricing for Gemini API incase they are hitting quota exceeded very often. For the flash models, this is about $0.2 per 1M tokens. In our pipeline, 1M tokens can roughly generate about 50 stories so you can expect to be able to generated 1 story for about $0.004 using the flash model. Using the pro model, the cost will jump to about $0.12 per story generated.
