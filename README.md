@@ -63,10 +63,62 @@ Setting → Crime (hidden) → Suspects → Clues
                               Final Story (prose narrative)
 ```
 
-Some of the sample stories generated for each type of genre that we are handling (classic puzzle, noir and psychological) are present in the `sample_good_stories` folder
+Some of the sample stories generated for each type of genre that we are handling (classic puzzle, noir and psychological) are present in the `sample_stories` folder
 
 ## Time and Cost Analysis
 
 The notebook takes typically 2-3 minutes to run fully and generate the final story. This can sometimes take longer while facing rate limiting issues with Gemini.
 
 Optionally, one can enable ondemand pricing for Gemini API incase they are hitting quota exceeded very often. For the flash models, this is about $0.2 per 1M tokens. In our pipeline, 1M tokens can roughly generate about 50 stories so you can expect to be able to generated 1 story for about $0.004 using the flash model. Using the pro model, the cost will jump to about $0.12 per story generated.
+
+## Analysis of a good story
+
+We generated a classic puzzle type of story which you can view at [`sample_stories/good_story_classic.md`](sample_stories/good_story_classic.md) 
+
+1. A scientist is found dead in a sealed deep-sea habitat with failing life support.
+
+2. The habitat lockdown is revealed to be deliberate sabotage, isolating all suspects under a ticking clock.
+
+3. The death is identified as a deliberate poisoning via the atmospheric system.
+
+4. The murder is determined to require both biological and engineering expertise.
+
+5. A closed set of suspects is established, each with motive and partial means.
+
+6. Early evidence points toward both Thorne (biological means) and Kryll (engineering access).
+
+7. Physical evidence begins to implicate Thorne but is not yet conclusive.
+
+8. Thorne presents a strong procedural alibi that blocks direct accusation.
+
+9. Environmental disruptions interfere with the investigation, suggesting active manipulation by the killer.
+
+10. Voss pursues an alternative suspect based on motive and means, but the timeline fails.
+
+11. Additional motives and secrets among the crew create misleading red herrings.
+
+12. Critical evidence is erased or corrupted, weakening the investigation.
+
+13. The communication system failure is confirmed as intentional sabotage requiring high technical skill.
+
+14. A second murder occurs when Kryll is found dead.
+
+15. Kryll’s death is recognized as a deliberate witness elimination.
+
+16. The killer is deduced to have control over both biological and engineering systems.
+
+17. The precise timing required for the poisoning becomes the key constraint.
+
+18. Remaining suspects are eliminated based on capability and timing.
+
+19. All evidence converges on Thorne as the only viable culprit.
+
+20. The true motive is uncovered: concealment of unauthorized energy experiments.
+
+21. Voss reconstructs the full sequence of crimes and confronts Thorne.
+
+22. Thorne attempts a final action to trigger system failure.
+
+23. Thorne is subdued and stopped.
+
+24. Voss overrides the failing life-support system, saving the habitat.
