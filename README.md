@@ -2,11 +2,9 @@
 
 Team Name: Rabid Fish 
 
-Project Template: Suspense Generation
+This is the GitHub repository for team **Rabid Fish**. We have chosen the Suspense Generation template for our project, which we have named the "*Whodunit Engine*." Using Google's Gemini API in tandem with five-phase prompt engineering, we propose a model for the generation of whodunit crime mysteries using LLMs which both builds upon prior work in story generation and extends the work to better enable coherent, cohesive and consistent details within each generated narrative.
 
-System Name: The Whodunit Engine
-
-An AI-powered whodunit story generator built with Google's Gemini API. Uses multi-stage prompt engineering to procedurally generate coherent murder mystery narratives with suspects, clues, red herrings, and an iterative detective investigation loop.
+This is an AI-powered whodunit story generator built with Google's Gemini API. It uses multi-stage prompt engineering to procedurally generate coherent murder mystery narratives with suspects, clues, red herrings, and features an iterative detective investigation loop.
 
 ## Setup
 
@@ -28,11 +26,11 @@ You can get a free Gemini API key at [https://aistudio.google.com/app/apikey](ht
 
 ### 3. Run the notebook
 
-Open `CS7634_Project1.ipynb` and run all cells sequentially, ensure that the config file has all the required parameters before you run all the cells.
+Open `CS7634_Project1.ipynb` and run all cells sequentially (either locally or on Google Colab), ensure that the config file has all the required parameters before you run all the cells.
 
 ## Output
 
-The final generated story (2500+ words) is saved to `generated_story.md` in the project directory.
+The final generated story (2500+ words) is saved to `generated_story.md` in the project directory. A few example stories (good, bad, etc.) have been uploaded to ```./sample_stories``` for your reference.
 
 ## Configuration
 
@@ -45,6 +43,17 @@ Model and pipeline parameters are set in **Cell 21** of the notebook:
 | `MIN_WRONG_ACCUS` | `4` | Minimum wrong accusations before resolution |
 | `MIN_PLOT_POINTS` | `15` | Minimum total plot points accumulated |
 | `DEATH_INJECTION_ITER` | random 1–3 | Which iteration triggers the second death |
+
+1. MIN_ITERATIONS
+	a. Controls the number of detailed searches for the culprit the detective will make on a guaranteed basis. This is the floor of the expected number. 
+2. MIN_WRONG_ACCUS
+	a. The minimum number of pointed accusations made regarding the suspect before the true culprit is revealed. Since these feed into the number of plot points, one should consider setting it to an appropriate value fraction of MIN_PLOT_POINTS so as to not overload the final story with unfounded or gratuitous accusations.
+3. MIN_PLOT_POINTS
+	a. The minimum number of plot points within a story, with a default value set to 15. The Whodunit Engine will regenerate new plot points until it exceeds this minimum quota, ensuring that the story has sufficient content and character.
+4. DEATH_INJECTION_ITER
+	a. A random value between 1 and 3 which determines the number of unexpected or mysterious deaths which will become part of the generated story. Feel free to edit this parameter, but within reason given that there is no guaranteed number of characters within a given suspense generation iteration.
+5. MAX_COHERENCE_RETRIES
+	a. The maximum number of retry attempts to ensure coherence within a given plot point with the other details provided in the story. After this number of attempts has been exceeded, a summarization of previous retry iterations will be used.
 
 If you hit rate limits, swap to a different API key in `config.py`.
 
