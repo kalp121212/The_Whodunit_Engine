@@ -34,7 +34,7 @@ The final generated story (2500+ words) is saved to `generated_story.md` in the 
 
 ## Configuration
 
-Model and pipeline parameters are set in **Cell 21** of the notebook:
+Model and pipeline parameters are set in `config.py`:
 
 | Parameter | Default | Description |
 |---|---|---|
